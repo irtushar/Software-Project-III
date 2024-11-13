@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="css/contact.css">
+</head>
+<body>
+
+    <header>
+        <h1>Contact Us</h1>
+        <p>We'd love to hear from you! Please fill out the form below.</p>
+    </header>
+
+    <main>
+        <div class="contact-container">
+
+            <!-- User Contact Section -->
+            <section class="contact-section user">
+                <h2>User Inquiries</h2>
+                <p>If you're a user, please fill out the form below and we'll get back to you as soon as possible.</p>
+
+                <form action="#" method="POST" class="contact-form">
+                    <label for="name">Your Name:</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">Your Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="message">Your Message:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+
+                    <button type="submit" class="submit-btn">Submit</button>
+                </form>
+            </section>
+
+            <!-- Other Contact Section -->
+            <section class="contact-section others">
+                <h2>Other Inquiries</h2>
+                <p>If you have inquiries unrelated to the user service, feel free to contact us directly.</p>
+                <p>Email us at: <a href="mailto:support@bookly.com">support@example.com</a></p>
+            </section>
+
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Your Company. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>

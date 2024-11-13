@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="css/cart.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    
+</head>
+<body>
+
+<header>
+    <h1>Shopping Cart</h1>
+</header>
+
+<main>
+    <section class="cart-container">
+        <div class="cart-item">
+            <img src="image/new_pub_1.jpg" alt="Book Image">
+            <div class="item-info">
+                <h3>The Red Sea Sharks</h3>
+                <p>Price: $10.99</p>
+                <button class="remove-item">Remove</button>
+            </div>
+            <div class="item-quantity">
+                <button class="quantity-btn" id="decrease">-</button>
+                <span class="quantity">1</span>
+                <button class="quantity-btn" id="increase">+</button>
+            </div>
+        </div>
+
+        <div class="cart-item">
+            <img src="image/biography1.jpg" alt="Book Image">
+            <div class="item-info">
+                <h3>Einstein</h3>
+                <p>Price: $10.99</p>
+                <button class="remove-item">Remove</button>
+            </div>
+            <div class="item-quantity">
+                <button class="quantity-btn" id="decrease">-</button>
+                <span class="quantity">1</span>
+                <button class="quantity-btn" id="increase">+</button>
+            </div>
+        </div>
+
+        <div class="cart-item">
+            <img src="image/children1.jpg" alt="Book Image">
+            <div class="item-info">
+                <h3>Tintin</h3>
+                <p>Price: $10.99</p>
+                <button class="remove-item">Remove</button>
+            </div>
+            <div class="item-quantity">
+                <button class="quantity-btn" id="decrease">-</button>
+                <span class="quantity">1</span>
+                <button class="quantity-btn" id="increase">+</button>
+            </div>
+        </div>
+
+        <div class="cart-item">
+            <img src="image/fiction2.jpg" alt="Book Image">
+            <div class="item-info">
+                <h3>A Thousand Splendid Suns</h3>
+                <p>Price: $10.99</p>
+                <button class="remove-item">Remove</button>
+            </div>
+            <div class="item-quantity">
+                <button class="quantity-btn" id="decrease">-</button>
+                <span class="quantity">1</span>
+                <button class="quantity-btn" id="increase">+</button>
+            </div>
+        </div>
+
+        <div class="cart-item">
+            <img src="image/new_pub_2.jpg" alt="Book Image">
+            <div class="item-info">
+                <h3>Adventure Of Feluda</h3>
+                <p>Price: $8.99</p>
+                <button class="remove-item">Remove</button>
+            </div>
+            <div class="item-quantity">
+                <button class="quantity-btn" id="decrease">-</button>
+                <span class="quantity">1</span>
+                <button class="quantity-btn" id="increase">+</button>
+            </div>
+        </div>
+
+        <!-- Add more items here -->
+
+    </section>
+
+    <section class="cart-summary">
+        <h2>Cart Summary</h2>
+        <p>Total Items: <span id="total-items">5</span></p>
+        <p>Total Price: $<span id="total-price">50</span></p>
+        <button class="checkout-btn">Proceed to Checkout</button>
+    </section>
+</main>
+
+<footer>
+    <p>© 2024 Bookly. All rights reserved.</p>
+</footer>
+
+<script src="js/cart.js"></script>
+
+</body>
+</html>
